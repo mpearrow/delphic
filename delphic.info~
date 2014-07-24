@@ -1,0 +1,41 @@
+name = Delphic
+description = A Drupal 7 Theme based on the Delphic theme by Elemis
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = style.css
+stylesheets[all][] = fonts/puritan.css
+
+regions[page_top] = Page top
+regions[header] = Header
+regions[highlight] = Highlight
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer] = Footer
+regions[page_bottom] = Page bottom
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+
+scripts[] = js/ddsmoothmenu.js
+scripts[] = js/jquery.cycle.all.min.js
+scripts[] = js/jquery.infieldlabel.min.js
+scripts[] = js/jquery.jcarousel.js
+scripts[] = js/jquery.prettyPhoto.js
+scripts[] = js/jquery.newscarousel.js
+scripts[] = js/jquery.portfolio.js
+scripts[] = js/jquery.quicksand.js
+scripts[] = js/scripts.js
+scripts[] = js/swfobject/swfobject.js
+scripts[] = js/twitter.min.js
