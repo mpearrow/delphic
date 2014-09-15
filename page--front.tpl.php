@@ -3,13 +3,17 @@
     <div id="header-wrapper">
       <div id="header">
 	
+   <div id="logo">
 	<?php if ($logo): ?>
 	<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
 	</a>
 	<?php endif; ?>
-	
+
+        <a href="<?php print $front_page; ?>"><div id="site-name"><?php print $site_name;?></div></a>
+   </div>	
         <div id="menu-wrapper">
+         
           <div id="smoothmenu1" class="ddsmoothmenu">
 	    <?php print drupal_render(menu_tree('main-menu')); ?>
           </div>
@@ -21,45 +25,41 @@
   
   
   
-  <!-- Begin Slider -->
-  <div id="cycle-wrapper">
-    <div id="sliderholder-cycle"> <img src="sites/all/themes/delphic/images/art/slider-1.jpg" width="960" height="380" />
-      <div>
-        <iframe src="http://player.vimeo.com/video/4890208?title=0&amp;byline=0&amp;portrait=0" width="960" height="380" frameborder="0"></iframe>
-      </div>
-      <img src="sites/all/themes/delphic/images/art/slider-2.jpg" width="960" height="380" /> </div>
-    <ul class="slidernav">
-    </ul>
-    <div class="sliderdir"> <a href="#"><span class="sliderprev">Prev</span></a> <a href="#"><span class="slidernext">Next</span></a> </div>
+<!-- Begin Slider -->
+  <div id="piecemaker-container">
+   <div text-align:"center">
+  <h6>[Hover your mouse over the image for more information.]</h6>
+  </div>
+    <div id="piecemaker">
+      <p>Put your alternative Non Flash content here.</p>
+    </div>
   </div>
   <!-- End Slider --> 
-  
+
   <!-- Begin Wrapper -->
   <div id="wrapper"> 
     
     <!-- Begin Intro -->
     <div class="intro">
-      <h1>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium. Praesent urna urna, venenatis at ultrices ac, viverra in turpis. Duis sceler isque mauri sut metus feugiat laoreet. </h1>
+      <h1>The ClockSketch project is developing innovative new ways to determine cognitive status from subtle cues in ordinary behavior.</h1>
     </div>
     <!-- End Intro --> 
     
-    <!-- Begin About -->
+ <!-- Begin About -->
     <div id="about">
-      <div class="one-fourth"> <a href="#"><img src="sites/all/themes/delphic/images/art/home-1.jpg" alt="" /></a>
-        <h4>Elegant Style</h4>
-        <p>Morbi non nunc nec ipsum tincidunt luctus aliquam vel nisi. Donec eu accumsan elit.</p>
+      <div class="one-fourth"> <a href="http://web.mit.edu"><img src="sites/all/themes/delphic/images/MITLogo.jpg" alt="MIT CSAIL" /></a>
+
       </div>
       <div class="one-fourth"> <a href="#"><img src="sites/all/themes/delphic/images/art/home-2.jpg" alt="" /></a>
-        <h4>Easily Customizable</h4>
-        <p>Nulla facilisi. Aenean porttitor cursus aliquet. Praesent sit amet dictum lacus. Risus eget augue.</p>
+        <h4>ClockSketch</h4>
+        <p>ClockSketch uses the venerable clock drawing test.</p>
       </div>
-      <div class="one-fourth"> <a href="#"><img src="sites/all/themes/delphic/images/art/home-3.jpg" alt="" /></a>
-        <h4>Dark and Light Layouts</h4>
-        <p>Vivamus placerat viverra posuere. Duis quis luctus diam. Aliquam a mi id vel orci lectus.</p>
+      <div class="one-fourth"> <a href="#"><img src="sites/all/themes/delphic//images/art/home-3.jpg" alt="" /></a>
+        <h4>Maze</h4>
+        <p>Maze is developing new tests by augmenting traditional maze-drawing tasks.</p>
       </div>
-      <div class="one-fourth last"> <a href="#"><img src="sites/all/themes/delphic/images/art/home-4.jpg" alt="" /></a>
-        <h4>jQuery Enhanced</h4>
-        <p>Sed eu lorem sed lectus interdum vehicula. Praesent sit amet risus eget augue semper.</p>
+      <div class="one-fourth last"> <a href="http://www.Lahey.org"><img src="sites/all/themes/delphic/images/LaheyLogo2.png" alt="Lahey Clinic" /></a>
+
       </div>
     </div>
     <!-- End About --> 
@@ -74,7 +74,18 @@
 <div id="footer-wrapper">
   <div id="footer">
     <div id="footer-content"> 
+      <!-- Begin Copyright -->
+      <div id="copyright">
+        <p>© Copyright 2014 MIT and Lahey Clinic</p>
+      </div>
+      <!-- End Copyright --> 
       
+      <!-- begin logos  OMIT LOGOS on main page -->
+      <div id="logos">
+     <a href="http://web.mit.edu"><img src="sites/all/themes/delphic/images/MITLogoFooter.png" alt="MIT CSAIL" /></a>
+     <a href="http://www.Lahey.org"><img src="sites/all/themes/delphic/images/LaheyLogoFooter.png" alt="Lahey Clinic" /></a>
+      </div>
+      <!-- End logos --> 
     </div>
   </div>
 </div>

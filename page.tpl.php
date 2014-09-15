@@ -2,13 +2,17 @@
   <div id="page-top">
     <div id="header-wrapper">
       <div id="header">
-	
+
+        <div id="logo">	
 	<?php if ($logo): ?>
 	<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
 	</a>
+
 	<?php endif; ?>
-	
+        <a href="<?php print $front_page; ?>"><div id="site-name"><?php print $site_name;?></div></a>
+        </div>	
+
         <div id="menu-wrapper">
           <div id="smoothmenu1" class="ddsmoothmenu">
 	    <?php print drupal_render(menu_tree('main-menu')); ?>
@@ -22,7 +26,9 @@
   
   
   <div id="wrapper">
+   <div class="content-center">
     <h2><?php print $title; ?></h2>
+   </div>
     <div class="boxybox">
       <?php print render($page['content']); ?>      
     </div>
