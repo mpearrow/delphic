@@ -882,7 +882,7 @@ table.price td h2 sup {
 /*	9.	PAGE
 /*-----------------------------------------------------------------------------------*/
 
-.content {
+.boxybox {
 	background-color: #FFF;
 	-moz-box-shadow: 0px 1px 2px #9f9f9f;
 	-webkit-box-shadow: 0px 1px 2px #9f9f9f;
@@ -2113,4 +2113,9 @@ h2.trigger.active {
 
 .d-carousel .jcarousel-prev-horizontal:hover {
 	background-position: bottom left;
+}
+
+ul li.leaf{
+    list-style-image: none;
+    list-style-type: none;
 }

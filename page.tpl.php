@@ -23,7 +23,9 @@
   
   <div id="wrapper">
     <h2><?php print $title; ?></h2>
-    <?php print render($page['content']); ?>      
+    <div class="boxybox">
+      <?php print render($page['content']); ?>      
+    </div>
   </div>
   
 </div>
