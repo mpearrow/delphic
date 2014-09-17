@@ -41,7 +41,7 @@
     
     <!-- Begin Intro -->
     <div class="intro">
-      <h1>The ClockSketch project is developing innovative new ways to determine cognitive status from subtle cues in ordinary behavior.</h1>
+   <h1><?php print $site_slogan; ?></h1>
     </div>
     <!-- End Intro --> 
     
