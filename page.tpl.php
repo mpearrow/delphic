@@ -41,11 +41,6 @@
 <div class="clearfix"></div>
 <div class="push"></div>    
 
-<div id="footer-wrapper">
-  <div id="footer">
-    <div id="footer-content"> 
-      
-    </div>
-  </div>
-</div>
-
+<footer class="footer">
+   <?php print render($page['footer']); ?>
+</footer>

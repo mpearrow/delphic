@@ -44,7 +44,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 body {
 	line-height:1
 }
-ol, ul {
+ul, ol {
 	list-style:none
 }
 blockquote, q {
@@ -371,9 +371,9 @@ table td {
 	border-right:1px solid #c1c1c1;
 }
 
-table td:hover {
-	background-color: #efefef;
-}
+//table td:hover {
+//	background-color: #efefef;
+//}
 
 table th {
 	padding: 10px;
@@ -2142,4 +2142,16 @@ ul li.leaf{
 #site-name {
   font-size: 2.5em;
   line-height: 1;
+}
+
+ol li {
+    list-style: decimal;
+    padding-left: 15px;
+
+}
+
+ol li ol li {
+    list-style: lower-alpha;
+    padding-left: 15px;
+
 }
