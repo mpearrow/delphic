@@ -45,31 +45,12 @@
     </div>
     <!-- End Intro --> 
     
- <!-- Begin About -->
-    <div id="about">
-      <div class="one-fourth"> <a href="http://web.mit.edu"><img src="sites/all/themes/delphic/images/MITLogo.jpg" alt="MIT CSAIL" /></a>
 
-      </div>
-      <div class="one-fourth"> <a href="#"><img src="sites/all/themes/delphic/images/art/home-2.jpg" alt="" /></a>
-        <h4>ClockSketch</h4>
-        <p>ClockSketch uses the venerable clock drawing test.</p>
-      </div>
-      <div class="one-fourth"> <a href="#"><img src="sites/all/themes/delphic//images/art/home-3.jpg" alt="" /></a>
-        <h4>Maze</h4>
-        <p>Maze is developing new tests by augmenting traditional maze-drawing tasks.</p>
-      </div>
-      <div class="one-fourth last"> <a href="http://www.Lahey.org"><img src="sites/all/themes/delphic/images/LaheyLogo2.png" alt="Lahey Clinic" /></a>
-
-      </div>
-    </div>
-    <!-- End About --> 
     
   </div>
 
 
 
-<div class="clearfix"></div>
-<div class="push"></div>    
 
 <div id="footer-wrapper">
   <div id="footer">

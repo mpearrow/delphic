@@ -39,5 +39,5 @@ scripts[] = js/jquery.newscarousel.js
 scripts[] = js/jquery.portfolio.js
 scripts[] = js/jquery.quicksand.js
 scripts[] = js/scripts.js
-scripts[] = js/swfobject/swfobject.js
+scripts[] = piecemaker/web/scripts/swfobject/swfobject.js
 scripts[] = js/twitter.min.js

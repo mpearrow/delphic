@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Piecemaker>
+  <Contents>
+    <Image Source="sites/all/themes/delphic/piecemaker/web/contents/clocksketch-newmain.png" Title="ClockSketch">
+      <Text>
+	&lt;h1&gt;ClockSketch&lt;/h1&gt;&lt;p&gt;A montage of scored clock tests.&lt;/p&gt;&lt;p&gt;Our combination of human and computer scoring combined with in-depth quality control effectively assesses each individual clock and ensures accurate analysis.&lt;/p&gt;
+      </Text>
+    </Image>
+    <Image Source="sites/all/themes/delphic/piecemaker/web/contents/MazePair.png" Title="Mazes">
+      <Text>&lt;h1&gt;Mazes&lt;/h1&gt;
+      &lt;p&gt;An intersting variation on the maze test. Stars indicate decision points in the maze.&lt;/p&gt;</Text>
+    </Image>
+    <Image Source="sites/all/themes/delphic/piecemaker/web/contents/HeadPair5.png" Title="MRI Images">
+      <Text>&lt;h1&gt;MRI Images&lt;/h1&gt;
+      &lt;p&gt;MRI images from the work of Catherine Price, PhD, Univ. Florida, Gainsville, demonstrating a connection between brain structure and think time on the clock test.&lt;/p&gt; &lt;p&gt; More information on imaging and other findings can be located on our Publications page.&lt;/p&gt;</Text>
+    <Hyperlink URL="http://think.csail.mit.edu/publications-and-news/publications" />
+    </Image>
+  </Contents>
+  <Settings ImageWidth="900" ImageHeight="360" LoaderColor="0x333333" InnerSideColor="0x222222" SideShadowAlpha="0.8" DropShadowAlpha="0.7" DropShadowDistance="25" DropShadowScale="0.95" DropShadowBlurX="40" DropShadowBlurY="4" MenuDistanceX="20" MenuDistanceY="50" MenuColor1="0x999999" MenuColor2="0x333333" MenuColor3="0xFFFFFF" ControlSize="100" ControlDistance="20" ControlColor1="0x222222" ControlColor2="0xFFFFFF" ControlAlpha="0.8" ControlAlphaOver="0.95" ControlsX="450" ControlsY="280&#xD;&#xA;" ControlsAlign="center" TooltipHeight="30" TooltipColor="0x222222" TooltipTextY="5" TooltipTextStyle="P-Italic" TooltipTextColor="0xFFFFFF" TooltipMarginLeft="5" TooltipMarginRight="7" TooltipTextSharpness="50" TooltipTextThickness="-100" InfoWidth="400" InfoBackground="0xFFFFFF" InfoBackgroundAlpha="0.95" InfoMargin="15" InfoSharpness="0" InfoThickness="0" Autoplay="10" FieldOfView="45"></Settings>
+  <Transitions>
+    <Transition Pieces="9" Time="1.2" Transition="easeInOutBack" Delay="0.1" DepthOffset="300" CubeDistance="30"></Transition>
+    <Transition Pieces="15" Time="3" Transition="easeInOutElastic" Delay="0.03" DepthOffset="200" CubeDistance="10"></Transition>
+    <Transition Pieces="5" Time="1.3" Transition="easeInOutCubic" Delay="0.1" DepthOffset="500" CubeDistance="50"></Transition>
+  </Transitions>
+</Piecemaker>

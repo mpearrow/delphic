@@ -2,16 +2,13 @@
 <Piecemaker>
   <Contents>
     <Image Source="sites/all/themes/delphic/images/clocksketch-newmain.png" Title="ClockSketch">
-		<Text>&lt;h1&gt;A montage of scored clock tests.&lt;/p&gt;</Text>
+		<Text>&lt;H1&gt;A montage of scored clock tests.&lt;/H1&gt;</Text>
 	</Image>
     <Image Source="sites/all/themes/delphic/images/MazePair.png" Title="Mazes">
-      <Text>&lt;h1&gt;An interesting variation on the maze test.&lt;/p&gt;</Text>
+      <Text><h1>An interesting variation on the maze test.</h1></Text>
 	  </Image>
     <Image Source="sites/all/themes/delphic/images/HeadPair5.png" Title="MRI Images">
-      <Text>&lt;h1&gt;MRI images from the work of Catherine Price, PhD, Univ. Florida, Gainsville, demonstrating a connection between brain structure and think time on the clock test.&lt;/p&gt;</Text>
-    </Image>
-	    <Image Source="sites/all/themes/delphic/style/images/rainbowgraphnew.png" Title="Alzheimer's disease progression">
-      <Text>&lt;h1&gt;Graph from &lt;i&gt;Criteria For Preclinical Alzheimer's Disease&lt;/i&gt;, Alzheimer's Association Report, 2010. Our work aims at enabling measures of cognition to be effective far earlier in the disease progression.&lt;/p&gt;</Text>
+      <Text><h1>MRI images from the work of Catherine Price, PhD, Univ. Florida, Gainsville, demonstrating a connection between brain structure and think time on the clock test.</h1></Text>
     </Image>
   </Contents>
   <Settings 
@@ -37,7 +34,7 @@
   ControlAlpha="0.8" 
   ControlAlphaOver="0.95" 
   ControlsX="480" 
-  ControlsY="300&#xD;&#xA;" 
+  ControlsY="300" 
   ControlsAlign="center" 
   TooltipHeight="30" 
   TooltipColor="0x222222" 
