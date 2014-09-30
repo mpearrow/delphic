@@ -29,8 +29,10 @@
    <div class="content-center">
     <h2><?php print $title; ?></h2>
    </div>
+
  <?php if ($tabs = render($tabs)): ?><div class="tabs"><?php print $tabs; ?></div><?php endif; ?>
     <div class="boxybox">
+   <?php print render($messages); ?>
       <?php print render($page['content']); ?>      
     </div>
   </div>

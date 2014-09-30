@@ -2153,17 +2153,33 @@ ol li ol li {
     float: left;
     margin-right: 20px;
     height: 100px;
-    margin-bottom:50px;
+    margin-bottom:10px;
     position:relative;
     // border: 1px solid #000;
 
 }
 
 .pubdescr {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     height: 100px;
     position:relative;
     // border: 1px solid #000;
 }
 
+.description {
+    
+    margin-left: 30%;
+    margin-top: 10px;
+    width: 50%;
+}
 
+
+
+label{
+    display: block;
+    float: left;
+    clear: left;
+    width: 30%;
+    text-align: right;
+    margin-right: 20px;
+}

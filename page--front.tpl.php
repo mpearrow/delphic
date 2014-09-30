@@ -21,9 +21,10 @@
         </div>
       </div>
     </div>
+   <?php print render($messages); ?>  
   </div>
   
-  
+
   
 <!-- Begin Slider -->
   <div id="piecemaker-container">
