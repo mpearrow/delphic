@@ -1824,18 +1824,18 @@ a#newslist-next.jbutton:hover {
 	text-decoration: underline;
 }
 
-.username {
-	background: transparent url(images/twitter-arrow.png) no-repeat center top;
-	position: absolute;
-	padding: 15px 0 0 0;
-	right: 0;
-	bottom:-35px;
-	font-size: 12px;
-}
+//.username {
+//	background: transparent url(images/twitter-arrow.png) no-repeat center top;
+//	position: absolute;
+//	padding: 15px 0 0 0;
+//	right: 0;
+//	bottom:-35px;
+//	font-size: 12px;
+//}
 
-.username a {
-	color: #5d8ba6;
-}
+//.username a {
+//	color: #5d8ba6;
+//}
 
 
 
@@ -2182,4 +2182,19 @@ label{
     width: 30%;
     text-align: right;
     margin-right: 20px;
+}
+
+#login {
+
+    font-size: small;
+    text-align: right;
+    width: 100px;
+    height: 20px;
+    float: right;
+    background:#cccccc;
+}
+
+#login a{
+    padding: 20px;
+    font-weight: bold;
 }

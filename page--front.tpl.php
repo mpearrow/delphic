@@ -1,6 +1,13 @@
 <div id="container"> 
   <div id="page-top">
     <div id="header-wrapper">
+   <div id="login">
+   <?php if($logged_in):?>
+   <a href="/user/logout">Logout</a>
+   <?php else: ?>
+   <a href="/user/login">Log in</a>
+   <?php endif; ?>
+   </div>
       <div id="header">
 	
    <div id="logo">
@@ -32,7 +39,11 @@
   <h6>[Hover your mouse over the image for more information.]</h6>
   </div>
     <div id="piecemaker">
-      <p>Put your alternative Non Flash content here.</p>
+      <h1>Uh Oh!</h1>
+   <p>It looks like your browser does not support Flash. You can download the Flash player from
+   <a href="http://get.adobe.com/flashplayer/">the Adobe software download site</a>, or you can 
+   <a href="http://think.csail.mit.edu/publications-and-news/publications">check out the content
+   that the slide show links to.</a></p>
     </div>
   </div>
   <!-- End Slider --> 
